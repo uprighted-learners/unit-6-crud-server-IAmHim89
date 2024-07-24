@@ -2,7 +2,7 @@
   "name": "crud-server",
   "version": "1.0.0",
   "description": "Welcome to the Robot Factory!",
-  "main": "index.js",
+  "main": "crud.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^8.2.0"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1"
   }
 }
